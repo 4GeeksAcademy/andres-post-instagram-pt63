@@ -55,6 +55,7 @@ img{
     width: 100%;
 }
 .icons{
+    position: relative;
     display: flex;
     height: 30%;
     width: 100%;
@@ -63,6 +64,16 @@ img{
 .icon-heart{
     font-size: 30px;
     padding-top: 10px;
+    position: absolute;
+}
+.icon-heart-hidden{
+    position: absolute;
+    color: transparent;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.icon-heart-hidden:hover{
+    color: red;
 }
 .icon-heart:hover{
     color: red;
@@ -70,16 +81,38 @@ img{
 .icon-comment{
     font-size: 30px;
     padding-top: 10px;
+    position: absolute;
+    margin-left: 40px;
+}
+.icon-comment:hover{
+    color: gray;
 }
 .icon-send{
     font-size: 30px;
     padding-top: 10px;
+    position: absolute;
+    margin-left: 80px;
+}
+.icon-send:hover{
+    color: gray;
 }
 .icon-bookmark{
     font-size: 30px;
     padding-top: 10px;
-    margin-left: auto;
+    margin-left: 430px;
     margin-right: 20px;
+    position: absolute;
+}
+.icon-bookmark-hidden{
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 430px;
+    margin-right: 20px;
+    position: absolute;
+    color: transparent;
+}
+.icon-bookmark-hidden:hover{
+    color: red;
 }
 .texto{
     height: 70%;
